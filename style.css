@@ -1,0 +1,148 @@
+/*<link rel="stylesheet" href="style.css">*/
+/* https://coolors.co/114b5f-1a936f-88d498-c6dabf-f3e9d2-664147-931621 */
+
+/* Heading */
+.header{
+    padding: 1px;
+    text-align: center;
+    background: #114B5F;
+    color: white;
+    font-size: 30px
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    background-color: #114B5F;
+    color: white;
+    padding: 15px;
+}
+footer a{
+    color: #1A936F;
+}
+footer a:hover{
+    color: #88D498;
+}
+/* Nav Bar */
+nav{
+    padding: 5px;
+    text-align: center;
+    background-color: #114B5F;
+}
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    width: 100%;
+}
+li{
+    display: inline;
+    /* padding: 5px; */
+}
+li a{
+    color: white;
+    background-color: #1A936F;
+    text-align: center;
+    padding: 5px 25px;    
+    margin: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+li a:hover{
+    background-color: #88D498;
+}
+
+/* User */
+.user{
+    text-align: right;
+    font-weight: bold;
+    color: #664147;
+    padding: 5px;
+    background-color: #1A936F;
+}
+
+/* Body */
+body{
+    background-color: #F3E9D2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+main{
+    background-color: #C6DABF;
+    padding: 20px;
+}
+.leftcont{
+    float: left;
+    width: 50%;
+    padding-right: 5%;
+}
+.rightcont{
+    float: right;
+    width: 45%;
+    
+}
+.clearrfloat{
+    clear: both;
+}
+.center{
+    text-align: center;
+    clear: both;
+}
+h2{
+    color: #664147;
+}
+main h3{
+    color: #664147;
+}
+p{
+    color: #231F20;    
+}
+
+/* Music */
+.music{
+    text-align: center;
+    background-color: #C6DABF;
+    padding: 20px;
+}
+.musiclabel{
+    font-weight: bold;
+    color: #664147;
+}
+audio{
+    padding: 10px;
+}
+
+/* Login/Sign Up Form */
+.err{
+    text-align: center;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 16pt;
+    color: #931621;
+}
+form{
+    display: inline-block;
+}
+table{
+    background-color: #C6DABF;
+    padding: 5px 20px;
+}
+table h3{
+    font-size: 20pt;
+    color: #231F20;
+    margin: 0px;
+}
+tr{
+    padding: 3px;
+}
+td{
+    padding: 3px;
+}
+.subbtn{
+    background-color: #1A936F;
+    padding: 5px 20px;
+}
+.subbtn:hover{
+    background-color: #88D498; 
+}
